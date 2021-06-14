@@ -39,3 +39,13 @@ Expected output
 
 
 '''
+
+
+for i in range(int(input("No of Testcase:-"))):
+    s=input("")
+    start,end = (int(i) for i in s.split(" "))
+    length=len(str(end))
+    for i in range(start,1+end):
+        number="0"*(length-len(str(i))) + str(i)
+        print(number,end=" ")
+    print("\n")
