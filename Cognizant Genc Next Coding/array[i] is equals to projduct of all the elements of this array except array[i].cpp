@@ -26,3 +26,15 @@ int main()
 }
 
 /* Question :- https://youtu.be/4x9j3vMO3nk  */
+
+
+/*METHOD 2 
+int total_mult=1;
+for(int i=0;i<size;++i){
+    cin>>array[i];
+    total_mult*=array[i];
+}
+for(int i=0;i<size;i++){
+	cout<<(total_mutl/array[i]);
+
+}
